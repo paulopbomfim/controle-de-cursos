@@ -2,7 +2,12 @@
 
 <br/>
 
-<div align="center"><strong> Projeto criado para um desafio tecnico<strong> </div>
+<div align="center">
+    <strong> Projeto criado para um desafio tecnico<strong>
+</div>
+<div align="center">
+    <strong>Não finalizado<strong>
+</div>
 
 ---
 
