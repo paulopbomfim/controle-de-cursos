@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "controle_de_cursos": {
+    "ControleDeCursos": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
