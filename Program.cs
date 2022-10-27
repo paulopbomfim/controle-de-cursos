@@ -9,7 +9,7 @@ DotNetEnv.Env.Load();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDataContext>();
 builder.Services.AddScoped<IApplicationDataContext, ApplicationDataContext>();
-// builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 // builder.Services.AddScoped<ILeadRepository, LeadRepository>();
 
 var context = new ApplicationDataContext();

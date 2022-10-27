@@ -1,0 +1,20 @@
+@model Course
+@{
+    ViewData["Title"] = "Atualizar curso";
+}
+
+<div class="w-full mt-20">
+  <form class="flex flex-col items-center gap-6" asp-controller="Courses" asp-action="Update" method="put">
+    <label class="flex flex-col" for="name">
+      Nome
+      <input class="text-zinc-800" type="text" asp-for="Name" name="name" id="name">
+    </label>
+
+    <label class="flex flex-col" for="description">
+      Descrição
+      <input class="text-zinc-800" type="text" asp-for="Description" name="description" id="description">
+    </label>
+
+    <input class="cursor-pointer p-4 bg-emerald-500 hover:bg-emerald-400 transition" type="submit" value="Cadastrar">
+  </form>
+</div>
