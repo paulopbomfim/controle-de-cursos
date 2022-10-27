@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Novo candidato";
+}
+
+<div class="w-full mt-20">
+  <form class="flex flex-col items-center gap-6" action="">
+    <label class="flex flex-col" for="name">
+      Nome
+      <input type="text" name="name" id="name">
+    </label>
+
+    <label class="flex flex-col" for="email">
+      Email
+      <input type="text" name="email" id="email">
+    </label>
+
+    <label class="flex flex-col" for="phone">
+      Telefone
+      <input type="text" name="phone" id="phone">
+    </label>
+
+    <label class="flex flex-col" for="cpf">
+      CPF
+      <input type="text" name="cpf" id="cpf">
+    </label>
+
+    <input class="cursor-pointer p-4 bg-emerald-500 hover:bg-emerald-400 transition" type="submit" value="Cadastrar">
+  </form>
+</div>

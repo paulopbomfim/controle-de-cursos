@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using controle_de_cursos.Models;
+using ControleDeCursos.Models;
 
-namespace controle_de_cursos.Controllers;
+namespace ControleDeCursos.Controllers;
 
 public class HomeController : Controller
 {
@@ -16,11 +16,5 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
