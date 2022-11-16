@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "8u7cQpLPFMe2W4b0JTC6XCpOCQKWK0e7bFPaBRgEfkk=",
+  "Source": "ControleDeCursos",
+  "BasePath": "_content/ControleDeCursos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControleDeCursos/wwwroot",
+      "Source": "ControleDeCursos",
+      "ContentRoot": "/home/paulo/Projects/Portfolio/desafio-tecnico/controle-de-cursos/wwwroot/",
+      "BasePath": "_content/ControleDeCursos",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/paulo/Projects/Portfolio/desafio-tecnico/controle-de-cursos/wwwroot/assets/logo.png",
+      "SourceId": "ControleDeCursos",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/paulo/Projects/Portfolio/desafio-tecnico/controle-de-cursos/wwwroot/",
+      "BasePath": "_content/ControleDeCursos",
+      "RelativePath": "assets/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/logo.png"
+    },
+    {
+      "Identity": "/home/paulo/Projects/Portfolio/desafio-tecnico/controle-de-cursos/wwwroot/css/global.css",
+      "SourceId": "ControleDeCursos",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/paulo/Projects/Portfolio/desafio-tecnico/controle-de-cursos/wwwroot/",
+      "BasePath": "_content/ControleDeCursos",
+      "RelativePath": "css/global.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/global.css"
+    },
+    {
+      "Identity": "/home/paulo/Projects/Portfolio/desafio-tecnico/controle-de-cursos/wwwroot/favicon.ico",
+      "SourceId": "ControleDeCursos",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/paulo/Projects/Portfolio/desafio-tecnico/controle-de-cursos/wwwroot/",
+      "BasePath": "_content/ControleDeCursos",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    }
+  ]
+}
